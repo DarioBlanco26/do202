@@ -84,9 +84,9 @@ DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql', 
             'NAME': 'django', 
-            'USER': 'root', 
-            'PASSWORD': '12345678', 
-            'HOST': 'mariadb', 
+            'USER': 'django', 
+            'PASSWORD': 'django', 
+            'HOST': '192.168.100.87', 
             'PORT': '', 
         } 
     }
